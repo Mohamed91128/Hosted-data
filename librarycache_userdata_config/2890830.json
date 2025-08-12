@@ -1,0 +1,28 @@
+{
+    "appid": 2890830,
+    "name": "Streamer Life Simulator 2",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-24 01:11:01",
+    "change_number": 30216926,
+    "depot": {
+        "2890831": {
+            "manifests": {
+                "public": {
+                    "gid": "7379383359389134719",
+                    "size": "5614797109",
+                    "download": "2274151392"
+                }
+            },
+            "decryptionkey": "f266168cbca0fdbad69d36ca8ed9187480ed8adf90c68090ebea91b92757a77e"
+        },
+        "baselanguages": "english,german,french,koreana,spanish,schinese,russian,japanese,portuguese,polish,turkish",
+        "branches": {
+            "public": {
+                "buildid": "18763240",
+                "timeupdated": "1749199204"
+            }
+        }
+    }
+}
