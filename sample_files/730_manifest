@@ -1,0 +1,28 @@
+Steam Game Manager Manifest
+Game ID: 730
+Game Name: Counter-Strike 2
+Version: 1.0.0
+Author: Steam Game Manager
+Upload Date: 2024-01-01T00:00:00Z
+
+Files:
+- 730.lua (1024 bytes)
+- 730.json (512 bytes)
+- 730/ (folder, 1048576 bytes)
+- 730_manifest (256 bytes)
+
+Installation Paths:
+- Lua: steam/config/stplug-in/730.lua
+- JSON: steam/userdata/{steam_id}/config/librarycache/730.json
+- Folder: steam/appcache/librarycache/730/
+- Manifest: steam/config/depotcache/730_manifest
+
+Checksums:
+- Lua: abc123def456789
+- JSON: def456ghi789012
+- Folder: ghi789jkl012345
+- Manifest: jkl012mno345678
+
+Permissions: read, write
+Requires Restart: false
+Backup Original: true 

@@ -1,0 +1,46 @@
+{
+    "game_id": "730",
+    "game_name": "Counter-Strike 2",
+    "version": "1.0.0",
+    "author": "Steam Game Manager",
+    "description": "CS2 game modification configuration",
+    "upload_date": "2024-01-01T00:00:00Z",
+    "file_hash": "abc123def456",
+    "compatibility": {
+        "steam_version": "latest",
+        "os": ["windows"],
+        "architecture": ["x64"]
+    },
+    "modifications": {
+        "enabled": true,
+        "auto_backup": true,
+        "restore_on_uninstall": true
+    },
+    "files": {
+        "lua": {
+            "path": "config/stplug-in/730.lua",
+            "size": 1024,
+            "hash": "lua_hash_here"
+        },
+        "json": {
+            "path": "userdata/{steam_id}/config/librarycache/730.json",
+            "size": 512,
+            "hash": "json_hash_here"
+        },
+        "folder": {
+            "path": "appcache/librarycache/730/",
+            "size": 1048576,
+            "hash": "folder_hash_here"
+        },
+        "manifest": {
+            "path": "config/depotcache/730_manifest",
+            "size": 256,
+            "hash": "manifest_hash_here"
+        }
+    },
+    "installation": {
+        "requires_restart": false,
+        "backup_original": true,
+        "permissions": ["read", "write"]
+    }
+} 
